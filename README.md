@@ -1,8 +1,8 @@
 #  🛒Target-Business-Case-Study_SQL 📊🇧🇷
 ![image](https://github.com/user-attachments/assets/8f1bdbc0-a2cc-402b-bf29-47bb117c45c8)
 
-This business case focuses on the operations of Target in Brazil and provides Insights and recommendation by analyzing data of 100,000 orders placed between 2016 and 2018.
 
+The goal of the project was to analyze Target's e-commerce operations in Brazil using the provided dataset (covering 2016–2018) to extract valuable insights and provide actionable recommendations. These insights aimed to enhance Target's understanding of its operations, customer behavior, logistics, and financial performance to support decision-making and improve business outcomes.
 
 **📋Context:**
 
