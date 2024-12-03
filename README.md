@@ -1,5 +1,5 @@
 #  🛒Target-Business-Case-Study_SQL 📊🇧🇷
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/8f1bdbc0-a2cc-402b-bf29-47bb117c45c8)
 
 This business case focuses on the operations of Target in Brazil and provides Insights and recommendation by analyzing data of 100,000 orders placed between 2016 and 2018.
 
