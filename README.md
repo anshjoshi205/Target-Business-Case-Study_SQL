@@ -3,7 +3,7 @@
 This business case focuses on the operations of Target in Brazil and provides Insights and recommendation by analyzing data of 100,000 orders placed between 2016 and 2018.
 
 
-Context:
+**Context:**
 
 Target is a globally renowned brand and a prominent retailer in the United States. Target makes itself a preferred shopping destination by offering outstanding value, inspiration, innovation and an exceptional guest experience that no other retailer can deliver.
 
@@ -13,113 +13,71 @@ By analyzing this extensive dataset, it becomes possible to gain valuable insigh
 
 ___________________________________________________________________________________________________________
 
-Dataset: https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCnb?usp=drive_link
+**Dataset:** https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCnb?usp=drive_link
 
 The data is available in 8 csv files:
 
-customers.csv
-sellers.csv
-order_items.csv
-geolocation.csv
-payments.csv
-reviews.csv
-orders.csv
-products.csv
+1.customers.csv
+2.sellers.csv
+3.order_items.csv
+4.geolocation.csv
+5.payments.csv
+6.reviews.csv
+7.orders.csv
+8.products.csv
 ___________________________________________________________________________________________________________
 
 The column description for these csv files is given below.
 
-The customers.csv contain following features:
+The **customers.csv** contain following features:
 
-Features
+**Features                                                                 Description**
 
-Description
+customer_id                                                   ID of the consumer who made the purchase
 
-customer_id
+customer_unique_id                                            Unique ID of the consumer
 
-ID of the consumer who made the purchase
+customer_zip_code_prefix                                      Zip Code of consumer’s location
 
-customer_unique_id
+customer_city                                                 Name of the City from where order is made
 
-Unique ID of the consumer
+customer_state                                                State Code from where order is made (Eg. são paulo - SP)
 
-customer_zip_code_prefix
+The **sellers.csv** contains following features:
 
-Zip Code of consumer’s location
+**Features                                                                Description**
 
-customer_city
+seller_id                                                          Unique ID of the seller registered
 
-Name of the City from where order is made
+seller_zip_code_prefix                                             Zip Code of the seller’s location
 
-customer_state
+seller_city                                                        Name of the City of the seller
 
-State Code from where order is made (Eg. são paulo - SP)
+seller_state                                                       State Code (Eg. são paulo - SP)
 
-The sellers.csv contains following features:
+The **order_items.csv** contain following features:
 
-Features
+**Features                                                                 Description**
 
-Description
+order_id                                                         A Unique ID of order made by the consumers
 
-seller_id
+order_item_id                                                    A Unique ID given to each item ordered in the order
 
-Unique ID of the seller registered
+product_id                                                       A Unique ID given to each product available on the site
 
-seller_zip_code_prefix
+seller_id                                                        Unique ID of the seller registered in Target
 
-Zip Code of the seller’s location
+shipping_limit_date                                              The date before which the ordered product must be shipped
 
-seller_city
+price                                                            Actual price of the products ordered
 
-Name of the City of the seller
+freight_value                                                    Price rate at which a product is delivered from one point to another
 
-seller_state
+The **geolocations.csv** contain following features:
 
-State Code (Eg. são paulo - SP)
+**Features                                                               Description**
 
-The order_items.csv contain following features:
-
-Features
-
-Description
-
-order_id
-
-A Unique ID of order made by the consumers
-
-order_item_id
-
-A Unique ID given to each item ordered in the order
-
-product_id
-
-A Unique ID given to each product available on the site
-
-seller_id
-
-Unique ID of the seller registered in Target
-
-shipping_limit_date
-
-The date before which the ordered product must be shipped
-
-price
-
-Actual price of the products ordered
-
-freight_value
-
-Price rate at which a product is delivered from one point to another
-
-The geolocations.csv contain following features:
-
-Features
-
-Description
-
-geolocation_zip_code_prefix
-
-First 5 digits of Zip Code
+geolocation_zip_code_prefix                                       First 5 digits of Zip Code
 
 geolocation_lat
 
