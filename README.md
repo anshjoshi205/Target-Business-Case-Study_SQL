@@ -1,9 +1,9 @@
-# Target-Business-Case-Study_SQL
+#  🛒Target-Business-Case-Study_SQL 📊🇧🇷
 
 This business case focuses on the operations of Target in Brazil and provides Insights and recommendation by analyzing data of 100,000 orders placed between 2016 and 2018.
 
 
-**Context:**
+**📋Context:**
 
 Target is a globally renowned brand and a prominent retailer in the United States. Target makes itself a preferred shopping destination by offering outstanding value, inspiration, innovation and an exceptional guest experience that no other retailer can deliver.
 
@@ -13,7 +13,7 @@ By analyzing this extensive dataset, it becomes possible to gain valuable insigh
 
 ___________________________________________________________________________________________________________
 
-**Dataset:** https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCnb?usp=drive_link
+** 📂Dataset:** https://drive.google.com/drive/folders/1TGEc66YKbD443nslRi1bWgVd238gJCnb?usp=drive_link
 
 The data is available in 8 csv files:
 
@@ -28,6 +28,7 @@ The data is available in 8 csv files:
 ___________________________________________________________________________________________________________
 
 The column description for these csv files is given below.
+🧑‍💻
 
 The **customers.csv** contain following features:
 
@@ -132,7 +133,7 @@ ________________________________________________________________________________
 
 As a Data Analyst/Scientist at Target, you are tasked with analyzing the provided dataset to extract valuable insights and provide actionable recommendations for improving operations, customer satisfaction, and the overall business strategy. The dataset contains various tables related to customer orders, payments, and delivery details.
 
-### Tasks
+### 🔎Tasks
 
 1. **Initial Data Exploration**
 
