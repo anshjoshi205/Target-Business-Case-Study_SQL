@@ -128,45 +128,74 @@ Dataset schema:
 
 ___________________________________________________________________________________________________________
 
-Problem Statement:
+## Problem Statement
 
-Assuming you are a data analyst/ scientist at Target, you have been assigned the task of analyzing the given dataset to extract valuable insights and provide actionable recommendations.
+As a Data Analyst/Scientist at Target, you are tasked with analyzing the provided dataset to extract valuable insights and provide actionable recommendations for improving operations, customer satisfaction, and the overall business strategy. The dataset contains various tables related to customer orders, payments, and delivery details.
 
-What does 'good' look like?
+### Tasks
 
-Import the dataset and do usual exploratory analysis steps like checking the structure & characteristics of the dataset:
-Data type of all columns in the "customers" table.
-Get the time range between which the orders were placed.
-Count the Cities & States of customers who ordered during the given period.
-In-depth Exploration:
-Is there a growing trend in the no. of orders placed over the past years?
-Can we see some kind of monthly seasonality in terms of the no. of orders being placed?
-During what time of the day, do the Brazilian customers mostly place their orders? (Dawn, Morning, Afternoon or Night)
-0-6 hrs : Dawn
-7-12 hrs : Mornings
-13-18 hrs : Afternoon
-19-23 hrs : Night
-Evolution of E-commerce orders in the Brazil region:
-Get the month on month no. of orders placed in each state.
-How are the customers distributed across all the states?
-Impact on Economy: Analyze the money movement by e-commerce by looking at order prices, freight and others.
-Get the % increase in the cost of orders from year 2017 to 2018 (include months between Jan to Aug only).
-You can use the "payment_value" column in the payments table to get the cost of orders.
-Calculate the Total & Average value of order price for each state.
-Calculate the Total & Average value of order freight for each state.
-Analysis based on sales, freight and delivery time.
-Find the no. of days taken to deliver each order from the order’s purchase date as delivery time.
-Also, calculate the difference (in days) between the estimated & actual delivery date of an order.
-Do this in a single query.
+1. **Initial Data Exploration**
 
-You can calculate the delivery time and the difference between the estimated & actual delivery date using the given formula:
-time_to_deliver = order_delivered_customer_date - order_purchase_timestamp
-diff_estimated_delivery = order_delivered_customer_date - order_estimated_delivery_date
-Find out the top 5 states with the highest & lowest average freight value.
-Find out the top 5 states with the highest & lowest average delivery time.
-Find out the top 5 states where the order delivery is really fast as compared to the estimated date of delivery.
-You can use the difference between the averages of actual & estimated delivery date to figure out how fast the delivery was for each state.
-Analysis based on the payments:
-Find the month on month no. of orders placed using different payment types.
-Find the no. of orders placed on the basis of the payment installments that have been paid.
+   - **1.1. Data Types & Structure**
+     - Check the data type of all columns in the `customers` table.
+   
+   - **1.2. Time Range of Orders**
+     - Get the time range between which the orders were placed.
+
+   - **1.3. Customer Distribution**
+     - Count the number of customers from each city and state who placed orders during the given period.
+
+2. **In-depth Exploration**
+
+   - **2.1. Orders Trend**
+     - Analyze if there is a growing trend in the number of orders placed over the past years.
+
+   - **2.2. Monthly Seasonality**
+     - Identify if there is any seasonal trend (monthly) in the number of orders being placed.
+
+   - **2.3. Brazilian Customer Behavior**
+     - Determine the time of day when Brazilian customers mostly place their orders. Categorize the time into:
+       - 0-6 hrs : Dawn
+       - 7-12 hrs : Morning
+       - 13-18 hrs : Afternoon
+       - 19-23 hrs : Night
+
+3. **Evolution of E-commerce Orders in Brazil**
+
+   - **3.1. Month-on-Month Orders**
+     - Get the month-on-month number of orders placed in each state.
+
+   - **3.2. Customer Distribution**
+     - Analyze how customers are distributed across different states in Brazil.
+
+4. **Impact on Economy: Cost Analysis**
+
+   - **4.1. Yearly Cost Comparison**
+     - Calculate the percentage increase in the cost of orders from 2017 to 2018 (Include months between Jan and Aug only).
+     - Use the `payment_value` column in the `payments` table to calculate the cost of orders.
+
+   - **4.2. State-wise Order Analysis**
+     - Calculate the total and average order price for each state.
+     - Calculate the total and average freight cost for each state.
+
+5. **Analysis Based on Sales, Freight, and Delivery Time**
+
+   - **5.1. Delivery Time Calculation**
+     - Calculate the number of days taken to deliver each order from the purchase date as `delivery_time`.
+     - Calculate the difference (in days) between the estimated and actual delivery date of an order.
+
+   - **5.2. Delivery Time Analysis**
+     - Identify the top 5 states with the highest and lowest average freight value.
+     - Identify the top 5 states with the highest and lowest average delivery time.
+     - Identify the top 5 states where the order delivery is faster than expected (compared to the estimated delivery date).
+
+6. **Analysis Based on Payments**
+
+   - **6.1. Monthly Payment Type Usage**
+     - Find the month-on-month number of orders placed using different payment types.
+
+   - **6.2. Payment Installments Analysis**
+     - Analyze the number of orders placed based on the payment installments made.
+
+---
 ___________________________________________________________________________________________________________
