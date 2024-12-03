@@ -76,15 +76,23 @@ The **payments.csv** contain following features:
 | **Feature**                     | **Description**                                                   |
 |----------------------------------|-------------------------------------------------------------------|
 | order_id                        | A Unique ID of order made by the consumers                        |
+| payment_sequential               | Sequences of the payments made in case of EMI                     |
+| payment_type                    | Mode of payment used (Eg. Credit Card)                            |
+| payment_installments             | Number of installments in case of EMI purchase                    |
+| payment_value                    | Total amount paid for the purchase order                          |
+
+
+The **orders.csv** contain following features:
+
+| **Feature**                     | **Description**                                                   |
+|----------------------------------|-------------------------------------------------------------------|
+| order_id                        | A Unique ID of order made by the consumers                        |
 | customer_id                     | ID of the consumer who made the purchase                         |
 | order_status                    | Status of the order made i.e. delivered, shipped, etc.            |
 | order_purchase_timestamp        | Timestamp of the purchase                                         |
 | order_delivered_carrier_date    | Delivery date at which carrier made the delivery                  |
 | order_delivered_customer_date   | Date at which customer got the product                            |
 | order_estimated_delivery_date   | Estimated delivery date of the products                           |
-
-The **orders.csv** contain following features:
-
 
 The **reviews.csv** contain following features:
 
